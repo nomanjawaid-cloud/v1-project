@@ -34,3 +34,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+<!-- loin file structure -->
+src/
+ ├─ app/
+ │   ├─ login/page.tsx
+ │   ├─ set-password/page.tsx
+ │   ├─ forgot-password/page.tsx
+ │   ├─ reset-password/page.tsx
+ │   └─ dashboard/page.tsx
+ ├─ lib/api.ts
+ └─ middleware.ts
+.env.local
+
+
+
+<!-- 
+Correct URL
+Login	        http://localhost:3000/auth/login
+Set Password	http://localhost:3000/auth/set-password?token=abc
+Forgot Password	http://localhost:3000/auth/forgot-password
+Reset Password	http://localhost:3000/auth/reset-password?token=abc
+Dashboard   	http://localhost:3000/auth/dashboard -->

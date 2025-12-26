@@ -1,7 +1,7 @@
 function RightArrow() {
   return (
     <div>
-      <h1> LeftArrow</h1>
+      <h1> RightArrow</h1>
     </div>
   );
 }

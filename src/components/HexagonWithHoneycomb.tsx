@@ -11,7 +11,7 @@ export default function HexagonWithHoneycomb() {
   return (
     <div className="flex items-start gap-10">
       {/* HEXAGON */}
-      <Hexagon onClick={() => setOpen((prev) => !prev)} />
+      <Hexagon onOpen={() => setOpen(true)} onClose={() => setOpen(false)} />
 
       {/* HONEYCOMB */}
       <div

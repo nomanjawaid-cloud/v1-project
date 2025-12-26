@@ -36,14 +36,14 @@ export default function Navbar() {
           alt="Transcend Logo"
           width={240}
           height={64}
-          className="object-contain w-40 sm:w-52 md:w-60"
+          className="object-contain w-40 sm:w-52 md:w-60 h-auto "
         />
       </div>
 
       <div className=" flex gap-4">
         {/* Right section */}
 
-        <Link href="/fakelogin" className="block ">
+        <Link href="/auth/login" className="block ">
           <MdAccountCircle
             size={32}
             className="cursor-pointer text-gray-600 hover:text-blue-600 hover:scale-110 transition-transform duration-200"
